@@ -1,13 +1,13 @@
 package com.example.anvilplayground.featuredagger
 
 import com.anvilplayground.screen.FeatureScope
-import com.anvilplayground.screen.ScreenPresentationModule
+import com.anvilplayground.screen.MyThingModule
 import dagger.Subcomponent
 
 @FeatureScope
 @Subcomponent(
     modules = [
-        ScreenPresentationModule::class,
+        MyThingModule::class,
     ]
 )
 interface DaggerFeatureComponent {

@@ -1,5 +1,5 @@
 package com.anvilplayground.screen
 
-open class MyContext() {
+open class MyThing() {
     val name = "Hello"
 }

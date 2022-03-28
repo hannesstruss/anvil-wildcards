@@ -1,7 +1,7 @@
 package com.anvilplayground.featureanvil
 
 import com.anvilplayground.screen.FeatureScope
-import com.anvilplayground.screen.ScreenPresentationModule
+import com.anvilplayground.screen.MyThingModule
 import com.squareup.anvil.annotations.MergeSubcomponent
 import dagger.Subcomponent
 
@@ -9,7 +9,7 @@ import dagger.Subcomponent
 @MergeSubcomponent(
     scope = FeatureScope::class,
     modules = [
-        ScreenPresentationModule::class,
+        MyThingModule::class,
     ]
 )
 interface AnvilFeatureComponent {
